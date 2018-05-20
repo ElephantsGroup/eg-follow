@@ -17,14 +17,17 @@ use yii\web\View;
  */
 class FollowAsset extends AssetBundle
 {
-    public $sourcePath = '@vendor/elephantsgroup/yii2-follow/assets';
+    public $sourcePath = '@vendor/elephantsgroup/eg-follow/assets';
    
     public function init() {
         $this->jsOptions['position'] = View::POS_END;
         parent::init();
     }
 
-	public $css = [];
+	public $css = [
+		'css/fontawesome.min.css',
+		'css/fa-solid.min.css',
+	];
     public $js = [
 		'js/eg-follow.js',
         'js/bootstrap-notify.min.js'

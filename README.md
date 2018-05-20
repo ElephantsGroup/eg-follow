@@ -4,12 +4,12 @@ Installation Steps:
 ===
 
 1) run
-> php composer.phar require elephantsgroup/yii2-follow "*"
+> php composer.phar require elephantsgroup/eg-follow "*"
 
-or add `"elephantsgroup/yii2-follow": "*"` to the require section of your composer.json file.
+or add `"elephantsgroup/eg-follow": "*"` to the require section of your composer.json file.
 
 2) migrate database
-> yii migrate --migrationPath=vendor/elephantsgroup/yii2-follow/migrations
+> yii migrate --migrationPath=vendor/elephantsgroup/eg-follow/migrations
 
 3) add follow module to common configuration (common/config.php file)
 

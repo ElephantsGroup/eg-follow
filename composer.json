@@ -1,6 +1,6 @@
 {
     "name": "elephantsgroup/eg-follow",
-    "description": "2 follow module",
+    "description": "yii2 follow module",
     "keywords": ["yii", "yii2", "extension", "follow", "elephantsGroup"],
     "type": "yii2-extension",
     "license": "MIT",
