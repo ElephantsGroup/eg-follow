@@ -66,7 +66,7 @@ class BaseAjaxController extends EGController
                         'status' => 200,
                         'message' => $follow_module::t('Successful')
                     ];
-                    $this->additionalFeatureAdd();
+                    $this->additionalFeatureAdd($service_id, $item_id, $user_id);
                 }
                 else
                     $response = [
@@ -118,7 +118,7 @@ class BaseAjaxController extends EGController
                         'status' => 200,
                         'message' => $follow_module::t('Successful')
                     ];
-                    $this->additionalFeatureRemove();
+                    $this->additionalFeatureRemove($service_id, $item_id, $user_id);
                 }
                 else
                     $response = [

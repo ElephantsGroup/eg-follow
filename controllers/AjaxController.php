@@ -33,12 +33,12 @@ class AjaxController extends BaseAjaxController
         ];
     }
 
-    public function additionalFeatureAdd()
+    public function additionalFeatureAdd($service_id, $item_id, $user_id)
     {
 
     }
 
-    public function additionalFeatureRemove()
+    public function additionalFeatureRemove($service_id, $item_id, $user_id)
     {
 
     }

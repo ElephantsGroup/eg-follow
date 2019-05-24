@@ -15,7 +15,7 @@ class Module extends \yii\base\Module
 {
     public $add_path = '/follow/ajax/add';
     public $remove_path = '/follow/ajax/remove';
-    
+
     // public $defaultRoute = 'admin';
     // make a problem, when is not logged and request like url, it asks for username and passwrod, then
     // visitor know this action exists but not allowed
